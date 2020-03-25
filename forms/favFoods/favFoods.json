@@ -9,10 +9,39 @@
   "borderWidth": "",
   "cached_js": null,
   "cached_js_script_hash": null,
-  "children": [],
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "favFoods",
+        "Elements",
+        "lstFoods.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "favFoods",
+        "Elements",
+        "lblFavFoods.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "favFoods",
+        "Elements",
+        "btnGoDessert.json"
+      ]
+    }
+  ],
   "class": "",
   "designHeight": 0,
   "designWidth": 0,
+  "events": "onkeypress",
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
@@ -22,7 +51,7 @@
   "locked": false,
   "modal": "false",
   "onhide": "",
-  "onkeypress": "",
+  "onkeypress": "favFoods.onkeypress()",
   "onresize": "",
   "onshow": "",
   "openMode": "none",
